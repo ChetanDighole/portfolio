@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/cdLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Chetan Dighole</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        mainBlack: '#0E0E0F',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .textShadow {
+            text-shadow:
+                -0.025em -0.025em 0 #ff0000,
+                0.025em 0.025em 0 #00ffff;
+        }
+    </style>
+</head>
+
+<body class="font-mono bg-mainBlack">
+    <!-- full screen -->
+    <section>
+        <section class="hidden md:block bg-[url('/images/newMain.png')] h-[110vh]  bg-cover px-[5%] bg-no-repeat">
+            <nav class=" px-[5%] flex flex-row justify-between items-center h-[5vh]">
+                <div>
+                    <a href="/index.html"><img src="/images/Chetan_Dighole-removebg-preview.png" alt="" class="w-[60px]"></a>
+                </div>
+                <div class="flex  flex-row text-[#f5f5f5] gap-x-28">
+                    <a href="#project">Projects</a>
+                    <a href="https://codewithchetan.hashnode.dev/" target="_blank">Blogs</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+
+            <section>
+                <div class="hidden md:flex flex-row items-center h-[95vh]">
+                    <div class="w-1/2 flex flex-col gap-y-4 ">
+                        <h1 class="text-[#FF00FF] textShadow text-[8rem]  font-bold leading-[100px]">CHETAN<br>DIGHOLE
+                        </h1>
+                        <h3 class="text-[#f5f5f5]  text-[4rem]">Web Developer</h3>
+
+                    </div>
+                    <div class="w-1/2"></div>
+                </div>
+            </section>
+        </section>
+
+        <!-- mobile -->
+        <section class="md:hidden bg-[url('/images/mobileMain.jpg')]  w-full h-[100vh]  bg-cover px-[5%] bg-no-repeat">
+            <nav>
+                <div class="h-[5vh]">
+                    <a href="/index.html"><img src="/images/Chetan_Dighole-removebg-preview.png" alt="" class="w-[60px]"></a>
+                </div>
+            </nav>
+
+            <section>
+                <div class="flex flex-col justify-center gap-y-4 h-[95vh] md:hidden">
+                    <h1 class="text-[#FF00FF] textShadow text-[4rem]  font-bold leading-[50px]">CHETAN<br>DIGHOLE</h1>
+                    <h3 class="text-[#f5f5f5]  text-[2rem]">Web Developer</h3>
+                    <div>
+                        <a href="http://twitter.com/codewithchetan" target="_blank" class="bg-[#f5f5f5] rounded-sm"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="http://github.com/ChetanDighole" target="_blank" class="bg-[#f5f5f5] rounded-sm"><i class="fa-brands fa-github"></i></a>
+                        <a href="http://www.linkedin.com/in/chetan-dighole-197b80205/" target="_blank" class="bg-[#f5f5f5] rounded-sm"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" target="_blank" class="bg-[#f5f5f5] rounded-sm"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="http://codewithchetan.hashnode.dev/" target="_blank" class="bg-[#f5f5f5] rounded-sm"><i class="fa-brands fa-hashnode"></i></a>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+
+
+
+    <!-- skills -->
+
+    <section>
+        <div class=" p-[5%]">
+            <div class="flex flex-col gap-y-4">
+                <div>
+                    <h1 class="text-[#f5f5f5] text-[3rem] lg:text-[6rem] textShadow font-bold">Skills:</h1>
+                </div>
+                <div class="flex flex-row flex-wrap gap-x-6 gap-y-4 w-[100%]">
+                    <img src="/images/html-1.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/css-3.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/javascript-1.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/tailwind-css-1-2.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/bootstrap-5-1.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/c.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/mysql-3.svg" alt="" class="w-[50px] lg:w-[100px]">
+                    <img src="/images/django-community.svg" alt="" class="w-[50px] lg:w-[100px]">
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- project cards -->
+
+    <section class=" px-[5%] py-[5%]">
+        <div id="project" class="flex  lg:flex-row gap-x-4 lg:items-center">
+            <h1 class="text-[#f5f5f5] text-[3rem] lg:text-[6rem] textShadow font-bold">Projects</h1>
+            <img src="/images/illustration.png" alt="" class="w-[80px] lg:w-[200px]">
+        </div>
+
+        <!-- cards -->
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 justify-between">
+
+            <div
+                class="max-w-xs rounded-md shadow-md bg-mainBlack border-4 hover:border-[#313132] border-[#1A1A1B] hover:-translate-y-1 transition ease-in delay-200 ">
+                <div class="flex flex-col justify-between item-start p-[6%]">
+                    <img src="/images/shopify.png" alt="" class="object-contain object-center w-full rounded-t-md ">
+                    <div class="flex flex-col justify-between space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold text-[#f5f5f5]">Shopify clone</h2>
+                            <p class="text-gray-600">This clone is created using tailwind css.</p>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row gap-4 justify-between">
+                            <a href="https://github.com/ChetanDighole/shopify.com-clone" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Source
+                                Code</a>
+                            <a href="https://shopify-clone-by-chetan-dighole.netlify.app/" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Deployed
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="max-w-xs rounded-md shadow-md bg-mainBlack border-4 hover:border-[#313132] border-[#1A1A1B] hover:-translate-y-1 transition ease-in delay-200 ">
+                <div class="flex flex-col justify-between item-start p-[6%]">
+                    <img src="/images/rode.png" alt="" class="object-contain object-center w-full rounded-t-md ">
+                    <div class="flex flex-col justify-between space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold text-[#f5f5f5]">RODE clone</h2>
+                            <p class="text-gray-600">This clone is created using tailwind css.</p>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row gap-4 justify-between">
+                            <a href="https://github.com/ChetanDighole/rode.com-clone" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Source
+                                Code</a>
+                            <a href="https://rode-clone-by-chetan-dighole.netlify.app/" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Deployed
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="max-w-xs rounded-md shadow-md bg-mainBlack border-4 hover:border-[#313132] border-[#1A1A1B] hover:-translate-y-1 transition ease-in delay-200 ">
+                <div class="flex flex-col justify-between item-start p-[6%]">
+                    <img src="/images/Paytm.png" alt="" class="object-contain object-center w-full rounded-t-md ">
+                    <div class="flex flex-col justify-between space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold text-[#f5f5f5]">PayTM clone</h2>
+                            <p class="text-gray-600">This clone is created using tailwind css.</p>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row gap-4 justify-between">
+                            <a href="https://github.com/ChetanDighole/PayTM-clone" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Source
+                                Code</a>
+                            <a href="https://paytm-clone-by-chetan-dighole.netlify.app/" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Deployed
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="max-w-xs rounded-md shadow-md bg-mainBlack border-4 hover:border-[#313132] border-[#1A1A1B] hover:-translate-y-1 transition ease-in delay-200 ">
+                <div class="flex flex-col justify-between item-start p-[6%]">
+                    <img src="/images/Designer-Landing-Page.png" alt=""
+                        class="object-contain object-center w-full rounded-t-md ">
+                    <div class="flex flex-col justify-between space-y-8">
+                        <div class="space-y-2">
+                            <h2 class="text-3xl font-semibold text-[#f5f5f5]">Designer page</h2>
+                            <p class="text-gray-600">This page is created usinge HTML & CSS.</p>
+                        </div>
+
+                        <div class="flex flex-col md:flex-row gap-4 justify-between">
+                            <a href="https://github.com/ChetanDighole/Product-Designer-Landing-Page" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Source
+                                Code</a>
+                            <a href="https://product-designer-project15.netlify.app/" target="_blank"
+                                class="inline-block px-[5%] py-[3%] text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-[#6419E6] rounded-md cursor-pointer hover:bg-[#5716C8]">Deployed
+                                Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <div class=" px-[5%]">
+        <a href="/templates/projects.html" target="_blank"
+            class="text-[#ff0099] block text-center text-[2rem] underline decoration-[#ff0099] decoration-2">View More
+        </a>
+    </div>
+
+    <!-- Contact -->
+
+    <section>
+        <div id="contact" class=" hidden md:flex flex-col gap-4 items-center p-[5%]">
+            <div>
+                <h1 class="text-[#f5f5f5] text-[3rem] lg:text-[6rem]  font-bold">Contact Me</h1>
+            </div>
+            <div class="w-[100%] flex flex-row flex-wrap justify-around items-center">
+                <a href="https://twitter.com/codewithchetan" target="_blank">
+                    <img src="/images/twitter-6.svg" alt="" srcset="" class="w-[100px]">
+                </a>
+                <a href="https://www.linkedin.com/in/chetan-dighole-197b80205/" target="_blank">
+                    <img src="/images/linkedin-icon-2.svg" alt="" srcset="" class="w-[80px]">
+                </a>
+                <a href="https://github.com/ChetanDighole" target="_blank">
+                    <img src="/images/github-icon-1.svg" alt="" srcset="" class="w-[80px]">
+                </a>
+                <a href="https://codewithchetan.hashnode.dev/" target="_blank">
+                    <img src="/images/hashnode-seeklogo.com.svg" alt="" srcset="" class="w-[80px]">
+                </a>
+                <a href="" target="_blank">
+                    <img src="/images/instagram-2016-6.svg" alt="" srcset="" class="w-[80px]">
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
