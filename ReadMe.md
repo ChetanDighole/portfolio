@@ -6,6 +6,6 @@ HTML![html icon](/images/html.png) & Tailwindcss![tailwind icon](/images/tailwin
 ***
 **[Deployed Link](https://chetan-dighole.netlify.app)**
 ***
-If you have any feedback you can reach me out on [Twitter](https://twitter.com/codewithchetan)
+If you have any feedback you can reach me out on [Twitter](https://twitter.com/ChetanDighole)
 ***
 ![screenShot](/Chetan-Dighole.png)
